@@ -7,14 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     private TextView txt1;
     private Button btn1;
 
-
-
+//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,9 +25,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
     private void initUI() {
-
+        Toast.makeText(this,"salam",Toast.LENGTH_LONG).show();
     }
 
     private void doActions() {
