@@ -23,7 +23,7 @@
         android:background="#cecece" />
 
     <TextView
-        android:id="@+id/txtMessage"
+        android:id="@+id/txtMessage1111"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/line"
