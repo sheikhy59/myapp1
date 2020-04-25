@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView txt1;
     private Button btn1;
 
+
 //
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
         initUI();
         doActions();
-
     }
 
     private void initUI() {
